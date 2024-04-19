@@ -1,6 +1,6 @@
 // Function to handle button clicks
 function handleButtonClick(url) {
-    window.location.href = url;
+    window.open(url, '_blank');
 }
 
 // Add event listeners to buttons
