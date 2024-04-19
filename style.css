@@ -1,0 +1,56 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Modern font */
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(to bottom right, #f5e0ff, #d5b3ff);
+    /* Gradient background in shades of purple */
+}
+
+/* Container for buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+/* Button styles */
+button {
+    padding: 15px 25px;
+    background-color: #6a1b9a;
+    /* Dark purple background */
+    color: white;
+    /* White text */
+    border: none;
+    border-radius: 50px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Slightly larger font size */
+    font-weight: bold;
+    /* Bold text */
+    box-shadow: 0 4px 10px rgba(106, 27, 154, 0.2);
+    /* Subtle shadow with purple tint */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* Smooth transition effects */
+}
+
+/* Hover effects */
+button:hover {
+    background-color: #9c27b0;
+    /* Brighter purple on hover */
+    box-shadow: 0 8px 20px rgba(156, 39, 176, 0.3);
+    /* More prominent shadow with purple tint */
+    transform: translateY(-2px);
+    /* Slight lift on hover */
+}
+
+/* Focus effect */
+button:focus {
+    outline: none;
+    /* Remove the default focus outline */
+    box-shadow: 0 0 0 4px rgba(156, 39, 176, 0.5);
+    /* Custom focus outline */
+}
